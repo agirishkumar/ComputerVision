@@ -1,0 +1,4 @@
+noise = randn([1 00000]);
+[n, x] = hist(noise, linspace(-3,3,7));
+disp([x;n]);
+plot(x,n);
