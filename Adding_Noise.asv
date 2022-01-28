@@ -1,0 +1,4 @@
+img = imread('img1.jpg');
+noise_sigma = 10;
+noise = randn(size(img)).*noise_sigma;
+noise_img = img
